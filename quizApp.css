@@ -1,0 +1,213 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: aliceblue;
+}
+nav {
+    background-color: #82d5fa;
+    width: 100%;
+    height: 50px;
+}
+
+nav > div > h3 {
+    font-size: 30px;
+    padding: 5px 20px;
+    color: azure;
+    text-shadow: 0 0 3px black;
+}
+
+#sec-title {
+    text-align: center;    
+    padding-top: 50px;
+    display: none;
+}
+
+#sec-title > h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#sec-title > h4 {
+    font-size: 30px;
+    margin: 15px;
+}
+
+#starterBtn {
+    margin: 0px auto;
+}
+
+#starter-section {
+    text-align: center;
+}
+
+#starter-section > button {
+    margin-top: 16%;
+    width: 250px;
+    height: 70px;
+    font-size: 32px;
+    border-radius: 70px;
+    border: 2px solid #82d5fa;
+    background-color: azure;
+    outline: none;
+}
+
+#starter-section > button:hover {
+    width: 262px;
+    height: 72px;
+    font-size: 35px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0px #82d5fa;
+}
+
+#timer-div {
+    position: absolute;
+    right: 80px;
+    top: 15px;
+    font-size: 20px;
+    display: none;
+}
+
+#timer-div > h4 > span {
+    /* position: absolute; */
+    /* right: 150px; */
+    /* top: 15px; */
+    margin-left: 5px;
+    /* color: white; */
+}
+
+#section-questions {
+    margin: 100px 170px 50px 170px;
+    display: none;
+}
+
+#question > h2{
+    font-size: 30px;
+}
+
+#question > p {
+    margin-top: 15px;
+    margin-left: 4px;
+    font-size: 20px;
+}
+
+#options {
+    margin-top: 50px;
+}
+
+#options > p {
+    display: inline;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+}
+
+#options > input[type=radio] {
+    margin-top: 20px;
+    border: 2px;
+    width: 30px;
+    height: 1.5em;
+}
+
+#navig-btn {
+    margin-top: 50px;
+}
+
+#navig-btn > button {
+    width: 80px;
+    height: 30px;
+    border-radius: 70px;
+    border: 2px solid #82d5fa;
+    background-color: azure;
+    outline: none;
+    font-size: 16px;
+    margin: 10px
+}
+
+#navig-btn > button:hover {
+    box-shadow: 0 0 4px #82d5fa;
+}
+
+#setQ-div {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+#setQ-div > h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+#setQ-div > input {
+    background-color: aliceblue;
+    display: block;
+    margin: 50px auto;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid #82d5fa;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#setQ-div > button, #takeQuestion > button {
+    width: 10%;
+    font-size: 30px;
+    font-size: 32px;
+    border-radius: 70px;
+    border: 2px solid #82d5fa;
+    background-color: azure;
+    outline: none;   
+}
+
+#setQ-div > button:hover,#takeQuestion > button:hover {
+    width: 11%;
+    font-size: 35px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0px #82d5fa;
+}
+
+#showGrades {
+    padding-top: 50px;
+    text-align: center;
+    display: none;
+}
+
+#showGrades > h1 {
+    margin: 30px;
+    font-size: 40px;
+}
+
+#takeQuestion {
+    display: none;
+    text-align: center;
+}
+
+#takeQuestion > h1 {
+    margin: 50px;
+    font-size: 35px;
+}
+
+#takeQuestion > input {
+    display: block;
+    margin: 30px auto;
+    font-size: 20px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid #82d5fa;
+    width: 20%;
+    text-align: center;
+}
+
+#takeQuestion > textarea {
+    font-size: 20px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-bottom: 5px solid #82d5fa;
+    width: 40%;
+    text-align: center;
+}
