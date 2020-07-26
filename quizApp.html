@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quizApp.css">
+    <title>Quiz App</title>
+
+</head>
+<body>
+    
+    <nav>
+        <div>
+            <h3>Quiz App</h3>
+        </div>
+
+        <div id='timer-div'>
+            <h4>Time Left: 
+                <span>00</span>:
+                <span>00</span>:
+                <span>00</span>
+            </h4>
+        </div>
+    </nav>
+
+    <section id='sec-title'>
+        <h1></h1>
+        <h4></h4>
+        <h4>Best of Luck</h4>
+        <span style='font-size:30px;'>&#128578;</span>
+    </section>
+
+    <section id='setQ-div'>
+        <h1>Set Questions Here!</h1>
+        <input type="text" placeholder="Enter Quiz Title">
+        <input type="text" placeholder="Enter Total number of Questions">
+        <input type="number" placeholder="Enter Time Duration in minutes">
+        <button onclick="getvals()" disabled>Done</button>
+    </section>
+
+    <section id='starter-section'>
+        <button onclick="setQ(this)" id='starterBtn'>Set Questions</button></a>
+    </section>
+
+    <section id='section-questions'>
+
+        <div id='question'>
+            <h2>Question N0 <span id="qNo"></span></h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis laudantium facilis, eveniet odit magni est placeat temporibus alias provident cumque? Maxime, perspiciatis possimus officiis dicta sit error esse aut illum!</p>
+        </div>
+        
+        <div id='options'>
+           
+        </div>
+
+        <div id='navig-btn'>
+            <button id='pBtn' onclick="previousQ()">Previous</button>
+            <button id='nBtn' onclick="showQuestions()">Next</button>
+        </div>
+    </section>
+
+    <section id="showGrades">
+        <h1>Maths Quiz</h1>
+        <h1>Corrent Answer: 4 out of 5</h1>
+        <h1>Total Percentage: 80%</h1>
+    </section>
+
+    <section id='takeQuestion'>
+        <h1>Set Questions Here!</h1>
+        <textarea cols="80" rows="4" placeholder="Enter Question here"></textarea>
+        <input type="text" placeholder="Option 1">
+        <input type="text" placeholder="Option 2">
+        <input type="text" placeholder="Option 3">
+        <input type="text" placeholder="Option 4">
+        <input type="text" placeholder="Enter Correct Answer">
+        <button onclick="addQuestion()">Next</button>
+    </section>
+
+    <script src="js/quizApp.js"></script>
+</body>
+</html>
